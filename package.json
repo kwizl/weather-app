@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "An API appliction that gets data from a server",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwizl/weather-app.git"
+  },
+  "author": "Martin Njoroge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwizl/weather-app/issues"
+  },
+  "homepage": "https://github.com/kwizl/weather-app#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
