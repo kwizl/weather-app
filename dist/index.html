@@ -4,10 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon.png" type="image/png">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet"> 
   <title>Weather App</title>
 </head>
 <body>
-  <script type='module' src='js/main.js'></script>
+  <header>
+    <h2 class="title">
+      WEATHER APP
+    </h2>
+  </header>
+  <div id="content">
+    <div class="div-input">
+      <input type="text" class="inputName" placeholder="Enter a city...">
+    </div>
+    <div class="div-input">
+      <input type="submit" class="inputSubmit" value="Search">
+    </div>
+    <div class="display">
+      <h2 class="name">Nairobi</h1>
+      <hr class="line">
+      <p class="temp">Temp: 20 C</p>
+      <hr class="line">
+      <p class="desc">Weather: Few Clouds</p>
+      <hr class="line">
+      <p class="humidity">Humidity: 82%</p>
+      <hr class="line">
+      <p class="wind">Windspeed: 6m/sec</p>
+      <hr class="line">
+    </div>
+  </div>
+  <script src='js/main.js'></script>
 </body>
 </html>
