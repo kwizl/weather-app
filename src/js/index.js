@@ -1,5 +1,8 @@
-import { Display } from './views/display.js';
+// import { Display } from './views/display.js';
 import Search from './models/search';
 
-const search = new Search('Nairobi');
-search.getResults();
+const city = document.querySelector('.inputName').value;
+const search = new Search(String(city));
+document.querySelector('.inputSubmit').addEventListener('click', () => {
+  search.getResults();
+});
