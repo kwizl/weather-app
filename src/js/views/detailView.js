@@ -1,4 +1,4 @@
-const Display = () => {
+const Detail = () => {
   const result = () => {
     const content = document.getElementById('content');
     const divResults = document.createElement('div');
@@ -42,4 +42,4 @@ const Display = () => {
 };
 
 // eslint-disable-next-line import/prefer-default-export
-export { Display };
+export { Detail };
