@@ -12,6 +12,7 @@ const Display = () => {
     const hr3 = document.createElement('hr');
     const hr4 = document.createElement('hr');
     const hr5 = document.createElement('hr');
+    const hr6 = document.createElement('hr');
 
     divResults.classList.add('results');
     h2.classList.add('name');
@@ -20,22 +21,24 @@ const Display = () => {
     hr3.classList.add('line');
     hr4.classList.add('line');
     hr5.classList.add('line');
+    hr6.classList.add('line');
     p1.classList.add('temp');
-    p2.classList.add('descp');
+    p2.classList.add('desc');
     p3.classList.add('humidity');
     p4.classList.add('wind');
 
     content.appendChild(divResults);
-    divResults.appendChild(h2);
     divResults.appendChild(hr1);
-    divResults.appendChild(p1);
     divResults.appendChild(h2);
-    divResults.appendChild(p2);
+    divResults.appendChild(hr2);
+    divResults.appendChild(p1);
     divResults.appendChild(hr3);
-    divResults.appendChild(p3);
+    divResults.appendChild(p2);
     divResults.appendChild(hr4);
-    divResults.appendChild(p4);
+    divResults.appendChild(p3);
     divResults.appendChild(hr5);
+    divResults.appendChild(p4);
+    divResults.appendChild(hr6);
   };
 
   return { result };

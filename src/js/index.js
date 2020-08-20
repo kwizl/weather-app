@@ -1,4 +1,3 @@
-import { Display } from './views/display';
 import Search from './models/search';
 import { elements } from './controller/base';
 
