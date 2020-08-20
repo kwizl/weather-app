@@ -1,8 +1,10 @@
-// import { Display } from './views/display.js';
+import { Display } from './views/display';
 import Search from './models/search';
+import { elements } from './controller/base';
 
-const city = document.querySelector('.inputName').value;
+const city = elements.inputName.value;
 const search = new Search(String(city));
-document.querySelector('.inputSubmit').addEventListener('click', () => {
+elements.form.addEventListener('submit', (e) => {
+  e.preventDefault();
   search.getResults();
 });
