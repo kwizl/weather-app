@@ -25,7 +25,7 @@ const Display = () => {
 
   const apiData = (data) => {
     document.querySelector('.name').textContent = `City: ${data.name}`;
-    document.querySelector('.temp').textContent = `Temp: ${data.main.temp} C`;
+    document.querySelector('.temp').textContent = `Temp: ${data.main.temp} °C`;
     document.querySelector('.desc').textContent = `Description: ${data.weather[0].description}`;
     document.querySelector('.humidity').textContent = `Humidity: ${data.main.humidity}%`;
     document.querySelector('.wind').textContent = `Wind Speed: ${data.wind.speed} m/s`;
@@ -38,5 +38,6 @@ const Display = () => {
   return { result, apiData, errorDisplay };
 };
 
-// eslint-disable-next-line import/prefer-default-export
-export { Display };
+module.exports = {
+  Display,
+};
