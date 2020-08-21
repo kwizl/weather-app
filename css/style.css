@@ -74,9 +74,10 @@ header {
   text-align: center;
 }
 
-.line {
+.name, .temp, .desc, .humidity, .wind {
   color: white;
   margin: 15px;
+  padding: 10px 0 10px 0;
   width: 250px;
   margin-left: calc((100vw - 250px) / 2);
 }
