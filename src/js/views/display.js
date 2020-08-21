@@ -31,11 +31,25 @@ const Display = () => {
     document.querySelector('.wind').textContent = `Wind Speed: ${data.wind.speed} m/s`;
   };
 
+  const resetData = () => {
+    document.querySelector('.name').textContent = '';
+    document.querySelector('.temp').textContent = '';
+    document.querySelector('.desc').textContent = '';
+    document.querySelector('.humidity').textContent = '';
+    document.querySelector('.wind').textContent = '';
+  };
+
   const errorDisplay = (error) => {
     document.querySelector('.error').textContent = error;
   };
 
-  return { result, apiData, errorDisplay };
+  const errorErase = () => {
+    document.querySelector('.error').textContent = '';
+  };
+
+  return {
+    result, resetData, errorErase, apiData, errorDisplay,
+  };
 };
 
 module.exports = {
