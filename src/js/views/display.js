@@ -41,7 +41,15 @@ const Display = () => {
     divResults.appendChild(hr6);
   };
 
-  return { result };
+  const apiData = (data) => {
+    document.querySelector('.name').textContent = `City: ${data.name}`;
+    document.querySelector('.temp').textContent = `Temp: ${data.main.temp} C`;
+    document.querySelector('.desc').textContent = `Desc: ${data.weather[0].description}`;
+    document.querySelector('.humidity').textContent = `Humidity: ${data.main.humidity}`;
+    document.querySelector('.wind').textContent = `Wind Speed: ${data.wind.speed}`;
+  };
+
+  return { result, apiData };
 };
 
 // eslint-disable-next-line import/prefer-default-export
