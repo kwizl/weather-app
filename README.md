@@ -1,10 +1,10 @@
 # RESTAURANT PAGE
 
-This project is a weather forecast site using the weather API. The user should be able to search for a specific location and toggle displaying the data in Fahrenheit or Celsius. Full Project Description [here](https://www.theodinproject.com/courses/javascript/lessons/weather-app)
+This project is a weather forecast site using the OpenWeatherAPI. The user should be able to search for a specific location and displaying the details of the weather. The appication does this by consuming the API and showing the desired data to the user. Full Project Description [here](https://www.theodinproject.com/courses/javascript/lessons/weather-app)
 
 ## Screenshots
 
-![screenshot]()
+![screenshot](./dist/img/screenshot.png)
 
 ## Online Version
  [Live Demo ](https://kwizl.github.io/weather-app/)
@@ -31,7 +31,7 @@ This project is a weather forecast site using the weather API. The user should b
 #### Get a local copy
 Now you need a copy of this application, if you are using Git:
 ```js
-git@github.com:kwizl/restaurant.git
+git@github.com:kwizl/weather-app.git
 ```
 Otherwise just hit (Download Zip) on green button (Clone or Download) at top of this page.
 
