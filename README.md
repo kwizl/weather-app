@@ -4,7 +4,10 @@ This project is a weather forecast site using the OpenWeatherAPI. The user shoul
 
 ## Screenshots
 
-![screenshot](./dist/img/screenshot.png)
+![screenshot](./dist/img/screenshot-1.png)
+
+
+![screenshot](./dist/img/screenshot-2.png)
 
 ## Online Version
  [Live Demo ](https://kwizl.github.io/weather-app/)
