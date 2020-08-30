@@ -14,13 +14,11 @@ import { Conversion } from './controller/conversion';
     if (text.includes('F')) {
       const val = text.replace(' °F', '');
       const num = Number(val);
-      console.log(num);
       document.querySelector('.temp').textContent = '';
       document.querySelector('.temp').textContent = convert.fahrenheitToCelsius(num, 'C');
     } else if (text.includes('C')) {
       const val = text.replace(' °C', '');
       const num = Number(val);
-      console.log(num);
       document.querySelector('.temp').textContent = '';
       document.querySelector('.temp').textContent = convert.celsiusToFahrenheit(num, 'F');
     }

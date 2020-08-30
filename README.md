@@ -42,7 +42,10 @@ In order to run the App on your browser:
 - Type in the terminal `npm install`
 - Type in the terminal `npx webpack` or `npx webpack --watch`
 - Open the `index.html` in the dist folder on your Browser.`
-
+- Type the name of the city in the search box
+- Click the `Search` button or press `Enter`
+- To change the temperature units to **Fahrenheit**, hover over the `temperature` value and click.
+  To change back to **Celsius** units click again.
 
 ### Contributing
 
