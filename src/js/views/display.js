@@ -1,6 +1,10 @@
+import { Conversion } from '../controller/conversion';
+
 const Display = () => {
+  const convert = Conversion();
+
   const result = () => {
-    const content = document.getElementById('content');
+    const content = document.querySelector('.content');
     const divResults = document.createElement('div');
     const h2 = document.createElement('h2');
     const p1 = document.createElement('p');
@@ -13,6 +17,8 @@ const Display = () => {
     p2.classList.add('desc');
     p3.classList.add('humidity');
 
+    p1.setAttribute('id', 'temp');
+
     content.appendChild(divResults);
     divResults.appendChild(h2);
     divResults.appendChild(p1);
@@ -22,7 +28,7 @@ const Display = () => {
 
   const apiData = (data) => {
     document.querySelector('.name').textContent = `City: ${data.name}`;
-    document.querySelector('.temp').textContent = `Temp: ${data.main.temp} °C`;
+    document.querySelector('.temp').textContent = `${convert.onloadConversion(data.main.temp)}`;
     document.querySelector('.desc').textContent = `Description: ${data.weather[0].description}`;
     document.querySelector('.humidity').innerHTML = `<img src=" http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png"/>`;
   };
@@ -47,6 +53,5 @@ const Display = () => {
   };
 };
 
-module.exports = {
-  Display,
-};
+// eslint-disable-next-line import/prefer-default-export
+export { Display };

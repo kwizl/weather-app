@@ -1,4 +1,3 @@
-/* eslint-disable no-throw-literal */
 import { Display } from '../views/display';
 
 export default class Search {
