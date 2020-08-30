@@ -11,7 +11,7 @@ body {
 
 header {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 .error {
@@ -20,13 +20,13 @@ header {
   text-align: center;
 }
 
-#content {
-  margin-top: 100px;
+.content {
+  margin-top: 70px;
 }
 
 .title {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .div-input {
@@ -74,10 +74,34 @@ header {
   text-align: center;
 }
 
-.name, .temp, .desc, .humidity {
+.name, .desc, .humidity {
   color: white;
   margin: 15px;
   padding-bottom: 20px;
   width: 250px;
   margin-left: calc((100vw - 250px) / 2);
+}
+
+.temp {
+  color: white;
+  margin: 15px;
+  padding-bottom: 20px;
+  width: 250px;
+  font-weight: bold;
+  margin-left: calc((100vw - 250px) / 2);
+  font-size: 21px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.temp:hover {
+  color: rgb(133, 133, 133);
+  margin: 15px;
+  padding-bottom: 20px;
+  width: 250px;
+  font-weight: bolder;
+  margin-left: calc((100vw - 250px) / 2);
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.5s;
 }
