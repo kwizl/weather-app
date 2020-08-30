@@ -14,7 +14,6 @@ export default class Search {
       display.errorDisplay('Invalid Data');
     } else {
       display.apiData(result);
-      console.log(result.name);
       display.errorErase();
     }
   }
