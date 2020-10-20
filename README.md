@@ -1,6 +1,6 @@
 # WEATHER APP
 
-This project is a weather forecast site using the OpenWeatherAPI. The user should be able to search for a specific location and displaying the details of the weather. The appication does this by consuming the API and showing the desired data to the user. Full Project Description [here](https://www.theodinproject.com/courses/javascript/lessons/weather-app)
+This project is a weather forecast site using the OpenWeatherAPI. The user should be able to search for a specific location and displaying the details of the weather. The application does this by consuming the API and showing the desired data to the user. Full Project Description [here](https://www.theodinproject.com/courses/javascript/lessons/weather-app)
 
 ## Screenshots
 
@@ -32,33 +32,31 @@ This project is a weather forecast site using the OpenWeatherAPI. The user shoul
 ## Getting Start
 
 #### Get a local copy
-Now you need a copy of this application, if you are using Git:
+Now you need a copy of this application if you are using Git:
 ```js
 git@github.com:kwizl/weather-app.git
 ```
-Otherwise just hit (Download Zip) on green button (Clone or Download) at top of this page.
+Click (Download Zip) on the green button (Clone or Download) on this page.
 
 #### Run App
 
-In order to run the App on your browser:
-- Open your command prompt or terminal and navigate inside the downloaded project
 - Type in the terminal `npm install`
 - Type in the terminal `npx webpack` or `npx webpack --watch`
 - Open the `index.html` in the dist folder on your Browser.`
 - Type the name of the city in the search box
 - Click the `Search` button or press `Enter`
 - To change the temperature units to **Fahrenheit**, hover over the `temperature` value and click.
-  To change back to **Celsius** units click again.
+  To change back to **Celsius** unit click again.
 
 ### Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 You can do it on [issues page](issues/).
 
 ## Acknowledgments
 
-A special thanks for all Microverse Team and Code Reviewers that guides me through my learning.
+A special thanks to all Microverse Team and Code Reviewers that guides me through my learning.
 
 ## Authors
 
@@ -67,7 +65,3 @@ A special thanks for all Microverse Team and Code Reviewers that guides me throu
 - Github: [@kwizl](https://github.com/kwizl)
 - Twitter: [@NjoroKaris](https://twitter.com/NjoroKaris)
 - Linkedin: [Martin Njoroge](https://www.linkedin.com/in/martin-kariuki-njoroge/)
-
-## Show your support
-
-Give a ⭐️ if you like this project!
