@@ -1,6 +1,6 @@
 # WEATHER APP
 
-This project is a weather forecast site using the OpenWeatherAPI. The user should be able to search for a specific location and displaying the details of the weather. The application does this by consuming the API and showing the desired data to the user. Full Project Description [here](https://www.theodinproject.com/courses/javascript/lessons/weather-app)
+This project is a weather forecast site using the OpenWeatherAPI. The user can search for a specific location and the app will display local weather details. The application does this by consuming the API and showing the desired data to the user. Full Project Description [here](https://www.theodinproject.com/courses/javascript/lessons/weather-app)
 
 ## Screenshots
 
