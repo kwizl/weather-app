@@ -1,31 +1,20 @@
-# WEATHER APP
-
-This project is a weather forecast site using the OpenWeatherAPI. The user can search for a specific location and the app will display local weather details. The application does this by consuming the API and showing the desired data to the user. Full Project Description [here](https://www.theodinproject.com/courses/javascript/lessons/weather-app)
-
-## Screenshots
-
-![screenshot](./dist/img/screenshot-1.png)
-
-
-![screenshot](./dist/img/screenshot-2.png)
-
-## Online Version
- [Live Demo ](https://kwizl.github.io/weather-app/)
+# SPICE
+This is a food delivery web application. It is still in its initial stages.
 
 ## Content
 
 * [Built With](#built-with)
 * [Getting Start](#getting-start)
-* [Contributing](#contributing)
-* [Acknowledgments](#acknowledgments)
 * [Authors](#authors)
 
 ## Built With
 
-- HTML5
+- Razor Pages
 - CSS3
-- Javascript
-- ESLint (Linter), Stylint
+- jQuery
+- C#
+- ASP.NET Core 3.1
+- SQLServer
 - Git, Github and VScode
 <br>
 
@@ -34,19 +23,15 @@ This project is a weather forecast site using the OpenWeatherAPI. The user can s
 #### Get a local copy
 Now you need a copy of this application if you are using Git:
 ```js
-git@github.com:kwizl/weather-app.git
+git@github.com:kwizl/spice.git
 ```
 Click (Download Zip) on the green button (Clone or Download) on this page.
 
 #### Run App
-
-- Type in the terminal `npm install`
-- Type in the terminal `npx webpack` or `npx webpack --watch`
-- Open the `index.html` in the dist folder on your Browser.`
-- Type the name of the city in the search box
-- Click the `Search` button or press `Enter`
-- To change the temperature units to **Fahrenheit**, hover over the `temperature` value and click.
-  To change back to **Celsius** unit click again.
+- Install Visual Studio Community Edition
+- Type in the terminal `add-migration InitialCommit`
+- Type in the terminal `update-database`
+- Click the `Play icon` button at the top center of the editor
 
 ### Contributing
 
@@ -54,11 +39,7 @@ Contributions, issues, and feature requests are welcome!
 
 You can do it on [issues page](issues/).
 
-## Acknowledgments
-
-A special thanks to all Microverse Team and Code Reviewers that guides me through my learning.
-
-## Authors
+## Author
 
 👤 **Martin Njoroge**
 
